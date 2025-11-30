@@ -22,7 +22,7 @@ jobs:
           path: built-site
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v7
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.146.0'
           extended: true
